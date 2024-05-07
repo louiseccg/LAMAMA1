@@ -1,0 +1,23 @@
+---
+title: "Exercices R"
+---
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exerciceR.css">
+    
+
+</head>
+<body>
+<h1>Bienvenue dans les exercices d'analyse en R </h1>
+<p>
+<iframe src="example.html" width="800" height="600"></iframe>
+<header>
+</header>
+ <footer>
+        <p>&copy;<strong> 2024 Louise Cochard - 09/04/2024 </strong></p>
+    </footer>
+
+</body>
+</html>

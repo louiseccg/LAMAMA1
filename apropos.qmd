@@ -1,0 +1,30 @@
+---
+title: "A propos"
+---
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="apropos.css">
+    <title></title>
+
+</head>
+<body>
+    <header>
+<h1>Infos</h1>
+<p>
+Je m'appelle Louise, diplômée en physique-chimie et sciences de la vie et de la terre. J'ai commencé ma carrière dans la restauration, où j'ai appris l'importance du travail d'équipe et de l'adaptabilité. Depuis début 2023, je suis engagée dans la gendarmerie, où j'ai développé des compétences en gestion de crise et en communication. En parallèle, je poursuis des études en intelligence artificielle pour mieux appréhender les défis technologiques futurs. Mon dynamisme et ma volonté d'apprendre caractérisent le plus mon parcours.
+</p>
+        
+<h1>Pour en savoir plus, je vous laisse cliqué sur l'image ci-dessous</h1>
+
+<a width="700" height="700" href="https://www.linkedin.com/in/louise-cochard/" class="image-square"> 
+    <img src="linkedin.jpg" alt="Description de l'image"><img src='linkedin.jpg'>
+
+
+</header>
+<footer>
+        <p>&copy;<strong> 2024 Louise Cochard - 09/04/2024 </strong></p>
+    </footer>
+</body>
+</html>

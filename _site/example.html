@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>DataCamp Light | Standalone example</title>
+  <link rel='shortcut icon' type='image/x-icon' href='https://www.datacamp.com/assets/favicon.ico'/>
+  <link rel="stylesheet" href="example.css">
+  <style>
+    .exercise {
+      margin: 50px;
+    }
+
+    [data-datacamp-exercise] {
+        visibility: hidden;
+      }
+  </style>
+
+  <script async src="https://cdn.datacamp.com/dcl-react-dev.js.gz"></script>
+</head>
+<body>
+  <div class="exercise">
+    <div class="title">
+    <h2>Exercice 1: Affichage des premières lignes d'un jeu de données</h2>
+    <p><strong>Dans cet exercice, vous devez afficher les premières lignes du jeu de données `iris`.</strong>
+    <div data-datacamp-exercise data-lang="r" data-height="auto">
+      <code data-type="pre-exercise-code"></code>
+      <code data-type="sample-code">
+    
+        # Charger le jeu de données iris
+        
+        # Afficher les cinq premières lignes du jeu de données
+      
+      </code>
+      <code data-type="solution"></code>
+      # Charger le jeu de données iris
+        data(iris)
+        
+        # Afficher les cinq premières lignes du jeu de données
+        head(iris)
+
+      <code data-type="sct">ex() %>% check_function("head", args = "x") %>% check_equal()</code>
+      
+      <div data-type="hint">Pour afficher les premières lignes d'un jeu de données en R, utilisez la fonction head().</div>
+    </div>
+  </div>
+  <div class="exercise">
+    <div class="title">
+      <h2>Exercice 2: Création d'un diagramme de dispersion avec le jeu de données ChickWeight</h2>
+      <p><strong>Dans cet exercice, vous devez créer un diagramme de dispersion à partir du jeu de données `ChickWeight`. Utilisez la variable `Time` pour l'axe des abscisses (x) et la variable `weight` pour l'axe des ordonnées (y).</strong></p>
+    </div>
+    <div data-datacamp-exercise data-lang="r" data-height="auto">
+      <code data-type="pre-exercise-code"></code>
+      <code data-type="sample-code">
+        # Charger le jeu de données ChickWeight
+
+# Créer un diagramme de dispersion pour les variables Time et weight
+</code>
+      <code data-type="solution">
+        # Charger le jeu de données ChickWeight
+        data(ChickWeight)
+        
+        # Créer un diagramme de dispersion pour les variables Time et weight
+        plot(ChickWeight$Time, ChickWeight$weight, main = "Diagramme de dispersion - Temps vs. Poids", xlab = "Temps", ylab = "Poids")
+      </code>
+      <code data-type="sct">
+        ex() %>% check_function("plot", args = c("x", "y")) %>% check_equal()
+      </code>
+      <div data-type="hint">
+        <p>Pour créer un diagramme de dispersion en R, utilisez la fonction plot() en spécifiant les variables à utiliser pour l'axe des abscisses (x) et l'axe des ordonnées (y)</p>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
